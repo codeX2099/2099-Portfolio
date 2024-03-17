@@ -1,0 +1,69 @@
+/* Style for body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0D1B2A; /* Indigo background */
+}
+
+/* Style for header */
+h1 {
+    text-align: center;
+    color: #FFD700; /* Gold title */
+    margin-top: 50px; /* Add some spacing from the top */
+}
+
+h2 {
+    text-align: center;
+    color: #FFD700; /* Gold title */
+    margin-top: 30px; /* Add some spacing from the top */
+}
+
+.sentiment-box {
+    text-align: center;
+    background-color: #7B68EE; /* Medium Blue color for background */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 200px;
+    height: 100px; /* Adjust width as needed */
+}
+
+/* Style for form */
+form {
+    width: 60%;
+    margin: 20px auto;
+    text-align: center;
+    background-color: #4B0082; /* Deep purple background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+}
+
+/* Style for input fields */
+input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style for submit button */
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #ADD8E6; /* Light blue button */
+    color: #333; /* Dark text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for submit button */
+input[type="submit"]:hover {
+    background-color: #00CED1; /* Dark purple button on hover */
+    color: #fff; /* White text */
+}
