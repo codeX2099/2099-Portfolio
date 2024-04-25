@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search Results</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='Style_Result.css') }}">
+</head>
+<body>
+    <div>
+        {% if search_text == "Nothing" %}
+            <div>You have not entered anything to search for.</div>
+        {% else %}
+            <h1>Search Results for "{{ search_text }}"</h1>
+            {% if results %}
+                <ul>
+                    {% for title in results %}
+                        <li>{{ title }}</li>
+                    {% endfor %}
+                </ul>
+            {% else %}
+                <p>No results found.</p>
+            {% endif %}
+        {% endif %}
+    </div>
+</body>
+</html>
